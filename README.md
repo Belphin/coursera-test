@@ -2,7 +2,7 @@
 
 It was created during the course from **Сoursera**
 
-_All content is in the site folder_
+_All content is in the **site** folder_
 
 
 ## Navigation
