@@ -1,0 +1,109 @@
+body {
+	color: #050302;
+	font-family: Comic Sans MS, Comic Sans, cursive;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+header {
+	text-align: center;
+	font-size: 36px;
+}
+
+.container {
+	width: 96%;
+	margin: 0 auto;
+}
+
+.row {
+	display: flex;
+	justify-content: center;
+}
+
+.block {
+	background: #999;
+	border: 2px solid black;
+	height: 200px;
+	overflow: auto;
+	overflow-x: hidden;
+	overflow-y: hidden;
+	margin: 20px;
+	font-size: 20px;
+}
+
+.row > div > div {
+	box-sizing: unset;
+	border: 1px solid black;
+	position: relative;
+	top: -1px;
+	right: -1px;
+	padding: 5px 40px 5px 40px;
+	font-size: 25px;
+	font-weight: 900;
+	float: right;
+}
+
+#chicken {
+	background: #D59898;
+}
+
+#beef {
+	background: #C14543;
+	color: #FEFBF0;
+}
+
+#sushi {
+	background: #DBC891;
+}
+
+p {
+	float: left;
+	padding: 5px 10px 5px 10px;
+	margin: 0;
+}
+
+@media (min-width: 992px) {
+	.block {
+		width: 33%;
+	}
+}
+
+@media (min-width: 768px) and (max-width: 992px) {
+	.row {
+		display: inline-block;
+		padding-left: 100px;
+		padding-right: 100px;
+	}
+	.block {
+		width: 47%;
+		float: left;
+		margin-left: 0;
+		margin-right: 0;
+	}
+	.block:nth-child(2) {
+		float: right;
+	}
+	.block:nth-child(3) {
+
+
+
+
+
+
+
+
+
+
+
+		
+		width: 100%;
+	}
+}
+
+@media (max-width: 768px) {
+	.row {
+		display: block;
+	}
+}
