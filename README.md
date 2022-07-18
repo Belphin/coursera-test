@@ -2,9 +2,9 @@
 
 It was created during the course from **Сoursera**
 
-_All content is in the **site** folder_
-
 
 ## Navigation
 
-[**index.html**](https://belphin.github.io/coursera-test/site/index.html)
+[**Module-2**](https://belphin.github.io/coursera-test/module2-solution/index.html)
+
+[**Module-3**](https://belphin.github.io/coursera-test/module3-solution/index.html)

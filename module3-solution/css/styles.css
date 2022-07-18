@@ -1,0 +1,122 @@
+html {
+	overflow-x: hidden;
+}
+
+body {
+	overflow-x: hidden;
+	font-family: Comic Sans MS, Comic Sans, cursive;
+	color: black;
+}
+
+/* HEADER */
+
+/*Navbar header start*/
+#header-nav { /*nav*/
+	background-color: #999;
+	border: 3px solid black;
+	border-bottom: 2px solid black;
+	border-radius: 0;
+}
+
+#brand-name {
+	margin-bottom: 8px;
+}
+
+#brand-name a { /*shop name*/
+	font-size: 1.5em;
+	color: black;
+	font-weight: bold;
+}
+
+#brand-name a:hover {
+	text-decoration: none;
+}
+
+#navbar-button {
+	border: 2px solid black;
+	background-color: #999;
+}
+
+#navbar-button:hover {
+	border-color: white;
+}
+
+#navbar-button .icon-bar {
+	background-color: black;
+	height: 0.6vw;
+}
+/*Navbar header end*/
+
+/*Collapsable nav start*/
+
+#nav-list {
+	margin: 0;
+}
+
+#chicken, #beef, #sushi {
+	color: black;
+	text-align: center;
+	border-top: 2px solid black;
+}
+
+#chicken {
+	border-top: 1px solid black;
+}
+
+#nav-list a:hover {
+	opacity: .8;
+	background-color: #E7E9EB;
+	font-size: 1.2em;
+}
+/*Collapsable nav end*/
+
+/* END HEADER */
+
+/* MAIN */
+
+#title { /*Our Menu*/
+	font-weight: 900;
+	font-size: 2em;
+}
+
+main section {
+	padding: 10px;
+	box-sizing: border-box;
+}
+
+section > div {
+	padding: 5px 10px 5px 10px;
+	background-color: #999;	
+}
+
+section h2 {
+	margin-top: 0;
+	font-size: 1.5em;
+	font-weight: bold;
+}
+
+/* MAIN END */
+
+/********** Medium devices only **********/
+@media (min-width: 992px) {
+
+}
+
+/********** Small devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+
+}
+
+/********** Extra small devices only **********/
+@media (max-width: 767px) {
+	#collapsable-nav {
+		background-color: white;
+		border: 2px solid black;
+		border: 0;
+		padding: 0;
+	}
+	#navbar-header {
+		margin: 0 -16px -1px -16px;
+		border-bottom: 2px solid black;
+	}
+}
